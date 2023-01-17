@@ -14,7 +14,7 @@ Tested with an accuracy of 77% on the test set, making use of the `'text'` colum
 
 ## Running Experiments
 
-1. Download the data from LINK and place in `disaster-tweets/data/`.
+1. Download the data from https://www.kaggle.com/competitions/nlp-getting-started/data and place in `disaster-tweets/data/`.
 2. Perform global preprocessing by running `python -m disaster_tweets.preprocessing.main`. This will perform standard text preprocessing.
 3. Run `python -m disaster_tweets.main` to train the RNN model. 
 
